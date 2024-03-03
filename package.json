@@ -1,0 +1,20 @@
+{
+  "name": "playwright_with_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.38.1",
+    "@types/node": "^20.6.3",
+    "@typescript-eslint/parser": "^6.7.2",
+    "eslint": "^8.50.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "eslint-plugin-playwright": "^0.16.0"
+  }
+}

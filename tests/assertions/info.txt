@@ -1,0 +1,3 @@
+first you can refer document too 
+second in the playwright unlike chai , if the condition is not met , then it will loop again and again , until the time is not finish or condition is not met.
+by default assertion timeout is 5sec 

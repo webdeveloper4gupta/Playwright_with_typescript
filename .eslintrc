@@ -1,0 +1,18 @@
+//  need to create this file to implement the eslint 
+{
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint"
+    ],
+    "extends": [
+      "plugin:playwright/playwright-test",
+      "eslint:recommended",
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended"
+    ]
+  }
+
+
+//   page.pause(); not used when i optimize the framework with the eslint 
+
+// npx eslint tests  -->  Folder we basically used for the  eslint setup 

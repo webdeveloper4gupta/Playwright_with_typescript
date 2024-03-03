@@ -1,0 +1,60 @@
+Framework optimization :
+1> Eslint 
+npm install eslint --save-dev  ----->used to install the eslint
+npm i eslint-plugin-playwright
+// if you use typescript :
+npm i @typescript-eslint/eslint-plugin
+npm i @typescript-eslint/parser --save-dev
+
+---> install the vs code eslint extension 
+---> create the .eslintrc file and add the configuration there
+--->command to check what things is wrong : npx eslint tests(here tests is foldername )
+
+--> each test case has its own pageContext
+
+
+
+
+creation of base url
+got to config file : baseURL:'here i write all the url"
+
+now to use in spec file
+await page.goto('/')
+
+
+
+//Faker we use for the creating the random js
+
+command is: npm install @faker-js/faker --save-dev
+
+we can import it using command: import {faker} from '@faker-js/faker';
+
+we can check the method for the faker 
+faker.name.getName()
+faker.phone.number()
+
+
+
+parameterised concept:
+`${params}`
+
+
+to run in serial manner
+npx playwright test tests --workers 1
+
+// if you have less workers then it cause less flakyness
+
+
+
+// report: 
+
+npx playwright test fileName  --reporter=list 
+
+
+npx playwright test fileName  --reporter=line
+
+npx playwright test fileName  --reporter=html
+
+
+// to change the global configuration:
+  reporter:[['html'],['list'],['json']]
